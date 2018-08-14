@@ -13,10 +13,11 @@ Mais íntimos:
 O firmware da Coralinæ será dividido em um arquivo _.ino_ principal, um arquivo _.h_ de configuração e vários arquivos _.cpp_ para lidar com as subtarefas mais importantes, tais como
 * Malhas de controle
 * Sequenciamento de ações (estratégia)
-* Processamento dos encoders
 * Processamento dos infravermelhos
 * Odometria
 * Comunicação serial
+
+O código conta, ainda, com bibliotecas situadas no diretório _lib_ que devem ser copiadas para a pasta _libraries_ do computador. Sugere-se que se façam links simbólicos em vez de cópias, para que a versão utilizada das bibliotecas sempre seja a mais recente.
 
 ## Interface 
 
